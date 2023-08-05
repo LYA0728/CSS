@@ -3,8 +3,15 @@
 @font-face {
     font-family: 'MyFont', 'MyFont';
     
-    src: url("./fonts/JetBrainsMono-Bold.woff2") format('woff2'), /* Super Modern Browsers */
-  }
+    src: url("https://raw.staticdn.net/LYA0728/fonts/main/JetBrainsMono-Bold.woff2") format('woff2'), /* Super Modern Browsers */
+}
+
+div {
+font-family: 'MyFont', 'MyFont' !important;
+font-size: 16pt !important;
+-webkit-font-smoothing: antialiased !important;
+padding-top: 9.5px !important;
+}
 
 
 div#notebook {
